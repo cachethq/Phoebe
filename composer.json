@@ -1,0 +1,16 @@
+{
+  "name": "cachethq/official-theme",
+  "description": "The official theme for Cachet.",
+  "autoload": {
+      "psr-4": {
+          "CachetHQ\\Theme\\Official\\": ""
+      }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "CachetHQ\\Theme\\Official\\ThemeProvider"
+      ]
+    }
+  }
+}

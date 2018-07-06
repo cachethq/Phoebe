@@ -1,0 +1,11 @@
+{
+  "name": "cachethq/official-theme",
+  "description": "The official theme for Cachet.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "James Brooks",
+      "email": "james@alt-three.com"
+    }
+  ]
+}
