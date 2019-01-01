@@ -1,6 +1,6 @@
 <?php
 
-namespace CachetHQ\Theme\Official;
+namespace CachetHQ\Phoebe;
 
 use CachetHQ\Cachet\Theme\ThemeWasCalled;
 use Illuminate\Contracts\Events\Dispatcher;

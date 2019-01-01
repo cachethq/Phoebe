@@ -1,15 +1,15 @@
 {
-  "name": "cachethq/official-theme",
-  "description": "The official theme for Cachet.",
+  "name": "cachethq/phoebe",
+  "description": "The default theme for Cachet.",
   "autoload": {
       "psr-4": {
-          "CachetHQ\\Theme\\Official\\": ""
+          "CachetHQ\\Phoebe\\": ""
       }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "CachetHQ\\Theme\\Official\\ThemeProvider"
+        "CachetHQ\\Phoebe\\ThemeProvider"
       ]
     }
   }
