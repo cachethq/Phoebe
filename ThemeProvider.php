@@ -27,6 +27,10 @@ class ThemeProvider extends ServiceProvider
                 json_decode(file_get_contents(__DIR__.'/theme.json'), true),
                 __DIR__.'/resources'
             );
+
+            $this->publishes([
+                __DIR__.'/public' => public_path('vendor/phoebe'),
+            ], 'theme-assets');
         });
     }
 }
