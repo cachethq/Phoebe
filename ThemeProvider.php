@@ -2,7 +2,7 @@
 
 namespace CachetHQ\Phoebe;
 
-use CachetHQ\Cachet\Theme\ThemeWasCalled;
+use CachetHQ\Cocoon\Events\ThemeWasCalled;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Support\ServiceProvider;
 
